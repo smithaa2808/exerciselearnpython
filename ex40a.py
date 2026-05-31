@@ -1,3 +1,5 @@
+# import ex40_change as ex40
+from ex40_change import Song
 # mystuff is a module which is a seperate file which can contain it's own apple function 
 # Mystuff40 is a container in the same file which can contain apple function which is different from 
 # the apple function on line8  
@@ -32,6 +34,10 @@ print(challenge23_07_1.names)
 import mystuff
 mystuff.players[0]
 print(mystuff.players[1], "it comes from mystuff.py")
+
+happy_bday = Song(["Happy Birthday to you",
+                   "I don't want to get sued ",
+                   "So I'll stop right there"])
 
 
 
